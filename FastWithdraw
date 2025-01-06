@@ -1,0 +1,9 @@
+local args = {
+    [1] = {
+        ["Index"] = "SnowMinnow",
+        ["Name"] = "SnowMinnow",
+        ["Amount"] = 2
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("WithdrawBankRemote"):FireServer(unpack(args))
