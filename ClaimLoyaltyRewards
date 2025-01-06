@@ -1,0 +1,6 @@
+local args = {
+    [1] = true,
+    [2] = true
+}
+
+game:GetService("Players").LocalPlayer:WaitForChild("UpdateFavoritedRemote"):FireServer(unpack(args))
